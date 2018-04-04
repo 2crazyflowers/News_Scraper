@@ -29,10 +29,8 @@ app.use(express.static("public"));
 // By default mongoose uses callbacks for async queries, we're setting it to use promises (.then syntax) instead
 // Connect to the Mongo DB
 mongoose.Promise = Promise;
-//week18Populater is the name of the database
-mongoose.connect("mongodb://localhost/week18Populater", {
-  useMongoClient: true
-});
+//newsscraper is the name of the database
+mongoose.connect("mongodb://localhost/testscaper");
 // // If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
 // var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 
