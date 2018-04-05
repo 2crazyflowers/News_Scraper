@@ -4,26 +4,35 @@
 	<meta charset="UTF-8">
 		<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Scraping With Mongoose</title>
-		<script src="https://code.jquery.com/jquery.js"></script>
-		<!-- <script src="/assets/js/cats.js"></script> -->
-	</head>
-	{{!-- <body>
-		{{{ body }}}
-	</body>
-</html> --}}
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+    {{!-- <script src="https://code.jquery.com/jquery.js"></script> --}}
 
-<body>
-  <div id="wrapper">
-    <h1>Note Scraper</h1>
-    <h2>
-      <i>If you can do this...the homework should be no problem.</i>
-    </h2>
-    <div id="articles"></div>
-    <div id="notes"></div>
-  </div>
+	</head>
+  <body>
+    <div id="navbar">
+      <h5>
+        <a href="/home">Home</a>
+      </h5>
+      <h5>
+        <a href="/saved">Saved Articles</a>
+      </h5>
+    </div>
+
+    {{!-- do i want an image like theres? --}}
+
+     {{{ body }}}
+
+
+  </body>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   {{!-- where is the javascript being pulled from --}}
-  <script src="assets/js/app.js"></script>
+  <script src="../../scripts/scrape.js"></script>
 </body>
 
 </html>
